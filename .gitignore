@@ -1,0 +1,58 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (e.g., IntelliJ, PyCharm, Rider)
+.idea/
+*.iml
+*.log
+# Build output
+bin/
+obj/
+out/
+# Ignore secrets or credentials
+*.key
+*.pem
+*.pfx
+*.crt
+
+# Ignore backup files
+*.bak
+*.swp
+*.tmp
+# Artifact caches or packages
+artifacts/
+cache/
+packages/
+# Maven
+target/
+*.class
+
+# Gradle
+.gradle/
+build/
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+# Environment files
+.env
+.env.*
+# Docker
+.dockerignore
+docker-compose.override.yml
